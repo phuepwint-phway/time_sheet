@@ -1,4 +1,4 @@
-class CreateClockList < ActiveRecord::Migration[7.1]
+class CreateClockLists < ActiveRecord::Migration[7.1]
   def up
     create_table :clock_lists do |t|
       t.integer :user_id
@@ -14,6 +14,5 @@ class CreateClockList < ActiveRecord::Migration[7.1]
   end
 
   def down
-    drop_table :clock_lists
   end
 end

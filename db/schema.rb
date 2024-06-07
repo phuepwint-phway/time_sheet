@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_06_132906) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_07_141257) do
   create_table "clock_lists", charset: "utf8mb3", force: :cascade do |t|
     t.integer "user_id"
     t.datetime "entry_date"
@@ -32,4 +32,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_06_132906) do
     t.date "updated_at"
     t.date "deleted_at"
   end
+
 end

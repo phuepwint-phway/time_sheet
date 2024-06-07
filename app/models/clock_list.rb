@@ -1,0 +1,2 @@
+class ClockList < ApplicationRecord
+end

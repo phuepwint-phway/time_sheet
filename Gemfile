@@ -8,6 +8,9 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.3"
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+# Use to seed information data
+gem 'seed_dump'
+
 # Use to check api in Rails
 gem 'rswag-api'
 gem 'rswag-ui'
