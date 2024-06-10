@@ -15,6 +15,11 @@ gem 'seed_dump'
 gem 'rswag-api'
 gem 'rswag-ui'
 
+# Use to debug
+# Call 'debugger' anywhere in the code to stop execution and get a
+# debugger console
+gem 'byebug'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
   
